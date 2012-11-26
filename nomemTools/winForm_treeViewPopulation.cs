@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace nomemTools
 {
-    public static partial class Tool
+    public static partial class winForm_treeViewPopulation
     {
         /// <summary>
         /// Populate winform treeview with any given object
@@ -17,7 +17,7 @@ namespace nomemTools
         /// <param name="TSource"></param>
         /// <param name="objectName">Initial object name (Optional)</param>
         /// <returns></returns>
-        private TreeNode ObjectAnalizer<T>(T TSource, string objectName = "Object")
+        public static TreeNode ObjectAnalizer<T>(T TSource, string objectName = "Object")
         {
             TreeNode treeNodes = new TreeNode(objectName);
 

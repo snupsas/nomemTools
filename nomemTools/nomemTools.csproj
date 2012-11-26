@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tool.cs" />
+    <Compile Include="geleral_AK_IBAN_validation.cs" />
+    <Compile Include="general_ExportToThanza.cs" />
+    <Compile Include="winForm_treeViewPopulation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
