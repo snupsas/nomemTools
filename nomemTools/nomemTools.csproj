@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ErrorLog.cs" />
     <Compile Include="geleral_AK_IBAN_validation.cs" />
     <Compile Include="general_ExportToThanza.cs" />
     <Compile Include="winForm_treeViewPopulation.cs" />
